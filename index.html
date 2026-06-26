@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abinaya S — Aspiring Software Engineer &amp; Full Stack Developer</title>
+    <meta
+      name="description"
+      content="Portfolio of Abinaya S — aspiring Software Engineer, Full Stack Developer, and AI Enthusiast based in Coimbatore."
+    />
+    <meta name="author" content="Abinaya S" />
+    <meta property="og:title" content="Abinaya S — Aspiring Software Engineer" />
+    <meta
+      property="og:description"
+      content="Premium portfolio showcasing projects, research and engineering work by Abinaya S."
+    />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap"
+    />
+
+    <!--
+      GitHub Pages SPA fallback support.
+      GitHub Pages has no server-side rewrite rules, so a hard refresh or
+      direct link to a nested route (e.g. /projects/healvent) returns the
+      static 404.html file instead of index.html. public/404.html stores
+      the attempted path in sessionStorage and redirects to "/"; this
+      script then restores the original path via the History API before
+      the router mounts, so TanStack Router renders the right route.
+    -->
+    <script>
+      (function () {
+        var redirect = sessionStorage.getItem("spa-redirect-path");
+        if (redirect) {
+          sessionStorage.removeItem("spa-redirect-path");
+          if (redirect !== location.pathname + location.search + location.hash) {
+            history.replaceState(null, "", redirect);
+          }
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

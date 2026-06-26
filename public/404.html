@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Abinaya S — Aspiring Software Engineer &amp; Full Stack Developer</title>
+    <!--
+      GitHub Pages SPA fallback.
+
+      GitHub Pages has no server-side rewrite rules, so it serves this file
+      for any path that doesn't match a real file on disk — which, for a
+      client-side-routed app, means every deep link or hard refresh on a
+      route other than "/" (e.g. /projects/healvent, /about).
+
+      Instead of showing a real 404, this stores the path the visitor
+      actually wanted and redirects to the site root. The inline script in
+      index.html then reads it back and restores the URL via
+      history.replaceState before TanStack Router mounts, so the correct
+      route renders with no visible flash or redirect loop.
+    -->
+    <script>
+      sessionStorage.setItem(
+        "spa-redirect-path",
+        location.pathname + location.search + location.hash,
+      );
+      location.replace("/");
+    </script>
+  </head>
+  <body></body>
+</html>

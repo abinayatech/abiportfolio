@@ -166,7 +166,7 @@ export const featuredProjects = [
       "Browser extension deployment",
       "Adversarial robustness against scripted bots",
     ],
-    repo: "https://github.com/abinayatech/Privacy-Preserving-Passive-Captcha-using-FL",
+    repo: "https://github.com/abinayatech/privacypreservingpassivecaptcha.git",
   },
   {emoji: "❤️‍🩹",
     slug: "healvent",

@@ -10,7 +10,7 @@ Personal portfolio website showcasing my projects, skills, experience, certifica
 - Vite
 
 ## 🌐 Live Demo
-https://abinayaportfolio-eight.vercel.app/
+https://abiportfolio-seven.vercel.app/
 
 ## 📫 Contact
 - LinkedIn: https://linkedin.com/in/abinayatechdev

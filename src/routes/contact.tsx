@@ -65,7 +65,6 @@ function Contact() {
         <Reveal>
           <div className="space-y-4">
             <QuickAction icon={Mail} label="Email" value={profile.email} copy={profile.email} href={`mailto:${profile.email}`} />
-            <QuickAction icon={Phone} label="Phone" value={profile.phone} copy={profile.phone} href={`tel:${profile.phone.replace(/\s/g, "")}`} />
             <QuickAction icon={Github} label="GitHub" value="github.com/abinayatech" href={profile.github} external />
             <QuickAction icon={Linkedin} label="LinkedIn" value="linkedin.com/in/abinayatechdev" href={profile.linkedin} external />
             <GlassCard className="flex items-center gap-3">

@@ -7,22 +7,27 @@ import { featuredProjects } from "@/data/portfolio";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Abinaya S — Aspiring Software Engineer & Full Stack Developer" },
+      {
+        title: "Abinaya S — Aspiring Software Developer | ML & AI",
+      },
       {
         name: "description",
         content:
-          "Premium recruiter-focused portfolio of Abinaya S — projects, research, certifications and engineering work.",
+          "Portfolio of Abinaya S — aspiring software developer building full-stack applications and exploring machine learning, artificial intelligence, and agentic AI.",
       },
-      { property: "og:title", content: "Abinaya S — Portfolio" },
+      {
+        property: "og:title",
+        content: "Abinaya S — Software Developer & AI Portfolio",
+      },
       {
         property: "og:description",
-        content: "Aspiring Software Engineer, Full Stack Developer, AI Enthusiast.",
+        content:
+          "Aspiring Software Developer | Full-Stack Application Builder | Machine Learning & AI Enthusiast | Exploring Agentic AI.",
       },
     ],
   }),
   component: Home,
 });
-
 function Home() {
   return (
     <>

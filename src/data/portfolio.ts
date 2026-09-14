@@ -11,18 +11,20 @@ import deloitteCertificate from "@/assets/images/deloitte.jpg";
 import celonisBusiness from "@/assets/images/celonis-business.jpg";
 import celonisTechnical from "@/assets/images/celonis-technical.jpg";
 import nptelCertificate from "@/assets/images/nptel-data-analytics.jpg";
+import mongodbCertificate from "../assets/images/mongodbCertificate.jpg";
 export const profile = {
   name: "ABINAYA S",
-  roles: [
-    "Aspiring Software Engineer",
-    "Aspiring Full Stack Developer",
-    "AI Enthusiast",
-    "Tech Explorer",
-  ],
+roles: [
+  "Aspiring Software Developer",
+  "Full-Stack Application Builder",
+  "Machine Learning & AI Enthusiast",
+  "Exploring Agentic AI",
+  "Tech Explorer",
+],
+
   tagline:
     "Passionate about building scalable software, AI-powered applications, and user-centric digital experiences through modern software engineering.",
   email: "abinayatech.dev@gmail.com",
-  phone: "+91 6374814493",
   location: "Coimbatore, Tamil Nadu, India",
   github: "https://github.com/abinayatech",
   linkedin: "https://linkedin.com/in/abinayatechdev",
@@ -37,7 +39,7 @@ export const education = [
     institution: "Sri Ramakrishna Engineering College, Coimbatore",
     degree: "B.E. Computer Science and Engineering",
     period: "2024 – Present",
-    detail: "CGPA: 8.53 / 10 (Current)",
+    detail: "CGPA: 8.45 / 10 (Current)",
   },
   {
     institution: "Higher Secondary (Class XII)",
@@ -202,6 +204,68 @@ export const featuredProjects = [
     repo: "https://github.com/abinayatech/Healvent-main",
   },
   {
+  emoji: "🎙️",
+  slug: "lumi",
+  title: "LUMI – Voice-First Health Companion for the Elderly",
+  period: "FEB 2026",
+  tagline:
+    "Voice-first AI healthcare platform designed to make digital healthcare simpler, safer, and more accessible for elderly users.",
+
+  overview:
+    "LUMI is a full-stack AI-powered healthcare web application that combines voice interaction, AI assistance, health monitoring, medication tracking, and emergency support into an accessible platform for elderly users and their caretakers.",
+
+  problem:
+    "Elderly users often face difficulties with traditional healthcare applications due to complex navigation, small text, and the need for typing. Caretakers also need a simple way to monitor their loved one's health, medication, and emergency situations.",
+
+  solution:
+    "Developed a voice-first healthcare platform that enables elderly users to interact naturally through voice while providing health monitoring, medication tracking, AI assistance, and one-tap emergency support. A dedicated caretaker dashboard allows caretakers to monitor linked patients and receive emergency alerts.",
+
+  features: [
+    "Voice-based AI assistant",
+    "Natural language interaction",
+    "AI assistance powered by Phi3 and Ollama",
+    "Patient health monitoring dashboard",
+    "Heart rate, blood pressure, and step tracking",
+    "Medication tracking and reminders",
+    "One-tap emergency SOS",
+    "Caretaker dashboard",
+    "Patient management and health information",
+    "Emergency alert workflow",
+    "Health history tracking",
+    "Elderly-friendly and accessible UI",
+    "Separate patient and caretaker experiences",
+  ],
+
+  architecture:
+  "Full-stack architecture with a React and TypeScript frontend, Python FastAPI backend services, SQLite database, and locally hosted Phi3 model through Ollama for AI-powered voice interaction.",
+
+
+  tech: [
+    "React.js",
+    "TypeScript",
+    "Vite",
+    "Tailwind CSS",
+    "Framer Motion",
+    "Python",
+    "FastAPI",
+    "SQLite",
+    "Ollama",
+    "Phi3",
+    "Web Speech API",
+    "REST API",
+  ],
+  
+future: [
+  "Real-time wearable and IoT health data integration",
+  "Multilingual and personalized voice interaction",
+  "Cross-platform mobile application",
+  "AI-driven personalized health analytics",
+],
+
+  repo:
+    "https://github.com/abinayatech/LUMI----Voice-First-Health-Companion",
+},
+  {
   emoji: "⚖️",
   slug: "lex-triage",
   title: "Lex Triage – AI Legal Intake & Client Query Triage System",
@@ -277,14 +341,6 @@ export const additionalProjects = [
     tech: ["React", "TypeScript", "AI"],
    
     repo: "https://github.com/abinayatech/smartdeals",
-  },
-  {
-    emoji: "🎙️",
-    title: "LUMI",
-    description: "Voice-first AI health companion designed to assist elderly users through natural conversations.",
-    tech: ["Voice AI", "React", "Health"],
-    
-    repo: "https://github.com/surya-tn99/LUMI",
   },
   {
     emoji: "🛡️",
@@ -363,11 +419,12 @@ export const certifications = [
   description: "Technical process mining credential from Celonis Academy.",
   },
   {
-    name: "Generative AI Mastermind",
-    org: "Outskill",
-    description: "Completion certificate for the Generative AI Mastermind program.",
-    image: outskillCertificate,
-  },
+  name: "AI Agents with MongoDB",
+  org: "MongoDB",
+  description:
+    "Successfully completed the Building AI Agents with MongoDB course and earned the MongoDB Skill credential.",
+  image: mongodbCertificate,
+},
   {
     name: "AI Foundations: Machine Learning",
     org: "LinkedIn Learning",
@@ -380,17 +437,17 @@ export const certifications = [
     description: "Practical tasks in data analysis and forensic technology.",
     image: deloitteCertificate  ,
   },
+    {
+    name: "Generative AI Mastermind",
+    org: "Outskill",
+    description: "Completion certificate for the Generative AI Mastermind program.",
+    image: outskillCertificate,
+  },
  
 ];
 
 export const achievements = [
-  {
-    title: "3rd Place — IEEE SparkNova'26 Project Expo",
-    org: "KPR Institute of Engineering and Technology",
-    date: "13 March 2026",
-    description: "Secured 3rd prize in the Project Presentation event organised by IEEE KPRIET PES SBC and the Department of EEE.",
-    image: sparknovaCertificate,
-  },
+ 
    {
   title: "IEEE ICIRCA 2026 — Certificate of Presentation",
   org: "IEEE | ICIRCA 2026",
@@ -399,13 +456,21 @@ export const achievements = [
   date: "3–5 June 2026",
   image: ieeeCertificate,
 },
-  {
-    title: "Prototype Stage — Israel–India Global Innovators Hackathon",
-    org: "Ariel University × Sri Ramakrishna Engineering College",
-    date: "5–6 January 2026",
-    description: "Advanced from Idea Stage to Prototype Stage in the Israel–India Global Innovators Hackathon'26.",
-    image:  israelIndiaCertificate,
+ {
+    title: "3rd Place — IEEE SparkNova'26 Project Expo",
+    org: "KPR Institute of Engineering and Technology",
+    date: "13 March 2026",
+    description: "Secured 3rd prize in the Project Presentation event organised by IEEE KPRIET PES SBC and the Department of EEE.",
+    image: sparknovaCertificate,
   },
+  {
+  title: "Top 10 Team — Israel–India Global Innovators Hackathon'26",
+  org: "Ariel University × Sri Ramakrishna Engineering College",
+  date: "5–6 January 2026",
+  description:
+    "Selected among the Top 10 teams from 500+ participating teams in the Israel–India Global Innovators Hackathon'26, advancing to the final stage of the competition.",
+  image: israelIndiaCertificate,
+},
   {
     title: "Kanam'26 — 24 Hours Hackathon",
     org: "Dr. N.G.P. Arts & Science College and Dr. N.G.P. Institute of Technology",
@@ -426,8 +491,8 @@ export const achievements = [
   description:
     "Solved coding challenges on LeetCode to strengthen proficiency in Data Structures, Algorithms, problem-solving, and competitive programming.",
   date: "Ongoing",
-  
-}
+  verifyUrl: "https://leetcode.com/u/abinaya__saravanan/",
+},
 ];
 
 export const stats = [

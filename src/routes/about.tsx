@@ -16,8 +16,8 @@ export const Route = createFileRoute("/about")({
 });
 
 const focus = [
-  { icon: Target, title: "Career Objective", body: "To build scalable, user-centric software solutions and contribute to innovative products as a Software Engineer." },
-  { icon: Compass, title: "Current Focus", body: "Strengthening full-stack engineering skills, building scalable web applications, improving modern frontend and backend development practices, and developing real-world software solutions." },
+  { icon: Target, title: "Career Objective", body: "To grow as a Software Developer by building practical, user-focused applications and applying software development, machine learning, and AI technologies to real-world problems." },
+  { icon: Compass, title: "Current Focus", body: "Building and improving full-stack applications while strengthening my software development skills. Exploring machine learning, agentic AI, modern web technologies, and practical approaches to solving real-world problems" },
   { icon: Sparkles, title: "Interests", body: "Full-Stack Development, Artificial Intelligence & Machine Learning, Prompt Engineering, Developer Tools and Software Architecture." },
 ];
 

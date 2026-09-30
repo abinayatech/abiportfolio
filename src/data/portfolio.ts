@@ -32,7 +32,7 @@ roles: [
 };
 
 export const summary =
-  "Computer Science and Engineering undergraduate with a strong foundation in software development, artificial intelligence, and prompt engineering. Experienced in full-stack application development through internships, research, and hackathons. Passionate about building scalable, user-centric software solutions, solving real-world problems, and continuously learning emerging technologies.";
+  "Computer Science and Engineering undergraduate skilled in software development, artificial intelligence, and scalable technology solutions. Skilled in full-stack application development and building user-focused applications through internships, hackathons, and projects. Passionate about solving real-world problems and continuously learning emerging technologies.";
 
 export const education = [
   {
@@ -112,27 +112,19 @@ export const experience = [
 export const skills = [
   {
     category: "Programming Languages",
-    items: ["C", "C++", "Java", "Python", "TypeScript", "HTML5", "CSS3"],
+    items: ["C", "C++", "Java", "Python", "TypeScript", "HTML", "CSS","Javascript"],
   },
   {
     category: "Frameworks & Technologies",
-    items: ["React.js", "Tailwind CSS", "Node.js", "Django", "Streamlit"],
+    items: ["React.js", "Fast APIS", "Django", "Streamlit"],
   },
    {
     category: "Databases",
     items: ["MySQL", "Supabase"],
   },
-    {
-    category: "AI & Emerging Technologies ",
-    items: [ "Machine Learning", "Prompt Engineering"],
-  },
   {
-    category: "Developer Tools ",
-    items: ["Git", "GitHub", "VS Code", "Power BI", "Vercel"],
-  },
-  {
-    category: "AI & Emerging Technologies ",
-    items: [ "Machine Learning", "Prompt Engineering"],
+    category: "Developer Tools & AI",
+    items: ["Git", "GitHub", "VS Code", "Power BI", "Vercel","RestAPIS","Machine Learning"],
   },
 ];
 
@@ -381,11 +373,11 @@ export const research = {
 
   authors: [
   "Abinaya S",
-  "Ashirwaya S",
-  "Dharshina S",
-  "Sayeetha V",
-  "Kingzy Grace R",
-  "Vijay Kumar T",
+  "Aishwarya S",
+  "Dharaniha S",
+  "Saveetha V",
+  "Kingsy Grace R",
+  "Vijaya Kumar T",
 ],
 
   certificate: ieeeCertificate,
@@ -504,7 +496,19 @@ export const stats = [
   { label: "LeetCode Problems", value: 50, suffix: "+" },
 ];
 
-export const heroTechBadges = [
-  "React", "TypeScript", "Python", "Java", "Tailwind CSS",
-  "MySQL", "Supabase", "Git", "Prompt Engineering", "Machine Learning",
+export const heroTechBadges = 
+  [
+  "Java",
+  "C",
+  "Python",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "TypeScript",
+  "React",
+  "GitHub",
+  "MySQL",
+  "APIs",
+  "Machine Learning"
 ];
+
